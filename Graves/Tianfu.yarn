@@ -4,22 +4,25 @@ Tian Fu - High Priest of Tianfuism
 ===
 title: TianFu_dialogue
 ---
-Shen: Who might you be?
-Tian Fu: Behold ye mortal and despair. The great Tian Fu stands in your presence
-Shen: Ah, a man of faith.
-Tian Fu: Neigh, not merely a man of faith, but the great creator, a God of Tianfunism!
-Shen: Great, he has a god complex too. 
-Tian Fu: Well what'd you expect, religious tax write offs are a god send!
-Shen: Huh?
-Tian Fu: Nevermind. Speaking of, the reason I'm still here is because I wanted to learn the deal with your daughter. How is she so ... perfect?
-Shen: ...What? Even if she was alive I would not grant you her hand. Who do you think you are?
-Tian Fu: I am a GOD! And that's not what I mean. I saw her one time when I finished preaching to my followers at one of our "gatherings". I was eating some delicious cookies that one of my followers so generously gave me and then I saw her. For the briefest of moments, she stared at me. The look she gave me wasn't like anything I've seen before. I mean people have glared at me in disgust or anger, but never the type of expression she gave me. It was one of complete LOVE! With a face like mine, how could she resist? Sadly I died a few weeks after. I wasn't even sick! 
-Shen: ... Don't look into it too much. She's always been like that. She's able to tell the exact expression that somebody desires her to make or anyone for that matter. I assume you probably wanted some form of acknowledgement of your enginuity. After all you did outsmart me, the great Shen.
-Tian Fu: Thanks! Still, I want to ask, was her expression sincere?
-Shen: Umm...sure.
-Tian Fu: Great! Thank you my subject! Now if you excuse me, I'm going to claim my throne in the heavens.
-<<wait 2>>
-Tian Fu: (It seems Tian Fu has passed on)
-Shen: Juhua, even now I don't understand why you did what you did. What were you trying to do? How did you know he was going to die?
-
+<<if $TianFu_talk is null>>
+  Shen: Who might you be?
+  Tian Fu: Behold ye mortal and despair. The great Tian Fu stands in your presence
+  Shen: Ah, a man of faith.
+  Tian Fu: Neigh, not merely a man of faith, but the great creator, a God of Tianfunism!
+  Shen: Great, he has a god complex too. 
+  Tian Fu: Well what'd you expect, religious tax write offs are a god send!
+  Shen: Huh?
+  Tian Fu: Nevermind. Speaking of, the reason I'm still here is because I wanted to learn the deal with your daughter. How is she so ... perfect?
+  Shen: ...What? Even if she was alive I would not grant you her hand. Who do you think you are?
+  Tian Fu: I am a GOD! And that's not what I mean. I saw her one time when I finished preaching to my followers at one of our "gatherings". I was eating some delicious cookies that one of my followers so generously gave me and then I saw her. For the briefest of moments, she stared at me. The look she gave me wasn't like anything I've seen before. I mean people have glared at me in disgust or anger, but never the type of expression she gave me. It was one of complete LOVE! With a face like mine, how could she resist? Sadly I died a few weeks after. I wasn't even sick! 
+  Shen: ... Don't look into it too much. She's always been like that. She's able to tell the exact expression that somebody desires her to make or anyone for that matter. I assume you probably wanted some form of acknowledgement of your enginuity. After all you did outsmart me, the great Shen.
+  Tian Fu: Thanks! Still, I want to ask, was her expression sincere?
+  Shen: Umm...sure.
+  Tian Fu: Great! Thank you my subject! Now if you excuse me, I'm going to claim my throne in the heavens.
+  <<wait 2>>
+  Tian Fu: (It seems Tian Fu has passed on)
+  Shen: Juhua, even now I don't understand why you did what you did. What were you trying to do? How did you know he was going to die?
+  <<set $TianFu_talk to 1>>
+<<elseif $TianFu_talk == 1>>
+  Tian Fu: (It seems Tian Fu has passed on)
 ===
