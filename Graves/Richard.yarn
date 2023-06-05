@@ -9,7 +9,7 @@ title: Richard_dialogue
   Richard: (You cannot seem to talk to Richard anymore.)
 
   <<set $Richard_talk to 1>>
-<<if $Richard_talk == 1>>
+<<elseif $Richard_talk == 1>>
   Richard: (You cannot seem to talk to Richard anymore.)
 
 ===

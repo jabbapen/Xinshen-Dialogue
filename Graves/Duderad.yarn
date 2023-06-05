@@ -28,6 +28,6 @@ title: Duderad_dialogue
   Shen: If this is true, lead me to the dragon's remains.
   Duderad: (it seems Duderad has left)
   <<set $Duderad_talk to $Duderad_talk + 1>>
-<<if $Duderad_talk > 0 >>
+<<elseif $Duderad_talk > 0 >>
   Duderad: (it seems Duderad has left)
 ===

@@ -1,0 +1,32 @@
+title: LuBuwei_dialogue
+---
+<<if $LuBuwei_talk == 0>>
+  Lu Buwei: I leave my story for all those who seek immense wealth. Then again this is purgatory. I guess maybe I just want to be heard before I pass. There exists a kingdom far west from the one Shen created where I lived my childhood. The kingdom was very wealthy with an economy consisting of a vast array of jewels pillaged from other kingdoms. Despite this,  my parents weren’t particularly wealthy or powerful, but we got by. Still, whenever I talked to someone who came from a family of a so-called higher status there was always a voice in the back of my head: “They’re looking down on you.”  That voice is what inspired me to acquire as much wealth or power as inspired. I didn’t care about status or anything like that, I just wanted the voice to go away.
+  <<set $LuBuwei_talk to 1>>
+<<elseif $LuBuwei_talk == 1>>
+  Lu Buwei: When I became a young adult, my parents got infected with a disease spreading throughout the kingdom. No one quite knew where it came from. There was a stupid rumor going around that anyone who ate jelly donuts were at risk. I really wasn’t one for jelly donuts, I was more of a cookie fan myself. Still, what was odd was when they died they didn’t appear to be in any pain. That made me happy. When my parents were around I wanted to see them smile, so I always tried my best to live by their personal values despite them not being my own. The voice in the back of my head never mentioned anything about morality regardless of what I did. 
+  <<set $LuBuwei_talk to 2>>
+<<elseif $LuBuwei_talk == 2>>
+  Lu Buwei: After my parents death, I stole a noble’s collection of jewels and used the money to become a merchant. Despite being new I was quite successful. The merchants around me were just as ambitious as me but they seemed to lack the ability to form meaningful connections. Maybe they were just after power for the sake of power. Still, despite my wealth amassing that voice lingered. Why? Do I need to amass more or maybe it was impossible to begin with.
+  <<set $LuBuwei_talk to 3>>
+<<elseif $LuBuwei_talk == 3>>
+  Lu Buwei: News reached of a ruler ascending in a kingdom to the east his name was Shen. He declared that he would create paradise where everyone could live in happiness as equals with those around them. For the briefest of moments the voice went away.  I decided to travel to Shen’s kingdom. I wanted to expand my business to new heights and do whatever it takes to help Shen create this paradise. Looking back this sounded so foolish. Still, the disease that killed my parents continued to spread throughout my kingdom. I wanted the voice to go away but not if it meant there being no one left to look down on me.
+  <<set $LuBuwei_talk to 4>>
+<<elseif $LuBuwei_talk == 4>>
+  Lu Buwei: My business flourished in Shen’s kingdom. I supplied caravans to nearly every merchant in Shen’s kingdom. There was no cost other than 10% of their earnings. With these earnings  I built more and more caravans. Eventually, I became the wealthiest person in the entire kingdom. Despite this I never talked to Shen but rather communicated through a friend of his named Gerald. I thought talking to Shen might ruin my dream of paradise and besides that I never heard that voice when I talked to Gerald. 
+
+  <<set $LuBuwei_talk to 5>>
+<<elseif $LuBuwei_talk == 5>>
+  Lu Buwei: In the end, I lived through the entirety of Shen’s rein, but the voice in my head never ceased. Why, why won’t it go away? Second to Shen, I’m the most powerful man in the kingdom yet still this incessant nagging persists. All I want is to talk to those around me as equals. I just want to be their friend, so why? Then again I already know the answer to that question. Some people just have that voice and regardless of what they do it’ll never go away completely. Maybe that’s what Shen felt. Well Voice inside my head it's time I finally accept you. After all, you are a part of me. Maybe you too can enjoy this delicious  cookie I’m about to eat.
+
+  <<set $LuBuwei_talk to 6>>
+<<else>>
+  Lu Buwei: (Story ends here)
+
+
+
+
+
+
+
+===
