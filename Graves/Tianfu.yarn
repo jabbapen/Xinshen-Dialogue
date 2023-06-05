@@ -4,7 +4,7 @@ Tian Fu - High Priest of Tianfuism
 ===
 title: TianFu_dialogue
 ---
-<<if $TianFu_talk is null>>
+<<if $TianFu_talk == 0>>
   Shen: Who might you be?
   Tian Fu: Behold ye mortal and despair. The great Tian Fu stands in your presence
   Shen: Ah, a man of faith.
@@ -25,4 +25,5 @@ title: TianFu_dialogue
   <<set $TianFu_talk to 1>>
 <<elseif $TianFu_talk == 1>>
   Tian Fu: (It seems Tian Fu has passed on)
+<<endif>>
 ===

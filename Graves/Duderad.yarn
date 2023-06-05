@@ -4,8 +4,7 @@ Duderad - The Brave
 ===
 title: Duderad_dialogue
 ---
-
-<<if $Duderad_talk is null >>
+<<if $Duderad_talk == 0 >>
   Duderad: It is I, Duderad the Brave! Do you need saving, my good sir?
   Shen: I do not need saving. "The Brave" you say? Why have I not heard of you? What are your feats, Duderad the Brave?
   Duderad: Why that's easy! My feet are below me of course! I use them to traverse the landscape and trample my enemies. Though I suppose I no longer have a material body, so none! I have no feet!
@@ -27,7 +26,8 @@ title: Duderad_dialogue
   Duderad: No! I defeated a dragon! I died in the process. I also ate this really good cookie. But don't ask for any because I have none left!
   Shen: If this is true, lead me to the dragon's remains.
   Duderad: (it seems Duderad has left)
-  <<set $Duderad_talk to $Duderad_talk + 1>>
+  <<set $Duderad_talk to 1>>
 <<elseif $Duderad_talk > 0 >>
   Duderad: (it seems Duderad has left)
+<<endif>>
 ===

@@ -4,7 +4,7 @@ Lü Buwei - Caravan Organizer
 ===
 title: LuBuwei_dialogue
 ---
-<<if $LuBuwei_talk is null>>
+<<if $LuBuwei_talk == 0>>
   Lu Buwei: I leave my story for all those who seek immense wealth. Then again this is purgatory. I guess maybe I just want to be heard before I pass. There exists a kingdom far west from the one Shen created where I lived my childhood. The kingdom was very wealthy with an economy consisting of a vast array of jewels pillaged from other kingdoms. Despite this,  my parents weren’t particularly wealthy or powerful, but we got by. Still, whenever I talked to someone who came from a family of a so-called higher status there was always a voice in the back of my head: “They’re looking down on you.”  That voice is what inspired me to acquire as much wealth or power as inspired. I didn’t care about status or anything like that, I just wanted the voice to go away.
   <<set $LuBuwei_talk to 1>>
 <<elseif $LuBuwei_talk == 1>>
@@ -26,11 +26,5 @@ title: LuBuwei_dialogue
   <<set $LuBuwei_talk to 6>>
 <<else>>
   Lu Buwei: (Story ends here)
-
-
-
-
-
-
-
+<<endif>>
 ===
