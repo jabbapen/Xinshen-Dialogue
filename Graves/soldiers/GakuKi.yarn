@@ -4,23 +4,27 @@ position: -1,7
 Gaku Ki - Honorable Han Ming Soldier
 ===
 title: GakuKi_dialogue
-position: 10,147
 ---
-Gaku Ki: So my king has finally passed. Did we end up winning the Battle of Huaxia?
-Shen: We lost that battle. My apologies, I recall your face, but your name alludes me
-Gaku Ki: I am Gaku Ki, I was a cavalryman
-Shen: Yes, I remember. I’ve seen you before. You were a truly amazing warrior
-Gaku Ki: Heh, so that’s how you remember me. To be perfectly honest I just wanted to die.
-Shen: What do you mean?
-Gaku Ki: I’ve never told anyone this story, but I guess you're the one person I’d want to hear it. I was an unwanted child born through a noble and a concubine. My dad wasn’t heartless enough to abandon me at birth, but he definitely wasn’t going to step in as a father figure either. He raised me until I turned old enough to live by myself. For him that was the ripe age of eight. To be perfectly honest I wasn’t sad, in fact, I didn’t feel anything at all, I just wanted to die.
-Shen:  Why didn’t you? 
-Gaku Ki: My body wouldn’t let me take my own life. Funny enough this is what led me to your army.
-Shen: Yes I understand. I am familiar with your valor in battle. It is admirable how you became such a strong soldier. How did you, may I ask? 
-Gaku Ki: Mmmm…I don’t really know. Truthfully, I was terrified. Every battle I entered, I thought it would be my last. I would think that it would be the last days of seeing the world, hearing the clanking of metal, the bite of winter. I went into battle after battle, taking risk after risk, expecting death to catch me. But he never did. I rose in the ranks. My fellow soldiers looked to me to lead them, to teach them. A sense of camaraderie was built around me. And my purpose was born. Shortly afterwards I died in the  Battle of Huaxia. It wasn’t painful. I wasn’t scared. I had nothing to leave behind. No tales to tell, no family to protect, not even a country to die for. 
-Shen: Were you happy? When you were alive? When you were with your troop? 
-Gaku Ki: I don’t know if I was ever truly alive, I don’t know if I will ever find out but…yes. I was happy. If only for fleeting moments. 
-Shen: I see.
-Gaku Ki: I am grateful. It is an honor to be visited by you. But I must apologize, emperor, for I think…I think I am ready.
-Shen: Ready? What is it that you are ready to do?
-Gaku Ki: ...
+<<if $GakuKi_talk is null>>
+  Gaku Ki: So my king has finally passed. Did we end up winning the Battle of Huaxia?
+  Shen: We lost that battle. My apologies, I recall your face, but your name alludes me
+  Gaku Ki: I am Gaku Ki, I was a cavalryman
+  Shen: Yes, I remember. I’ve seen you before. You were a truly amazing warrior
+  Gaku Ki: Heh, so that’s how you remember me. To be perfectly honest I just wanted to die.
+  Shen: What do you mean?
+  Gaku Ki: I’ve never told anyone this story, but I guess you're the one person I’d want to hear it. I was an unwanted child born through a noble and a concubine. My dad wasn’t heartless enough to abandon me at birth, but he definitely wasn’t going to step in as a father figure either. He raised me until I turned old enough to live by myself. For him that was the ripe age of eight. To be perfectly honest I wasn’t sad, in fact, I didn’t feel anything at all, I just wanted to die.
+  Shen:  Why didn’t you? 
+  Gaku Ki: My body wouldn’t let me take my own life. Funny enough this is what led me to your army.
+  Shen: Yes I understand. I am familiar with your valor in battle. It is admirable how you became such a strong soldier. How did you, may I ask? 
+  Gaku Ki: Mmmm…I don’t really know. Truthfully, I was terrified. Every battle I entered, I thought it would be my last. I would think that it would be the last days of seeing the world, hearing the clanking of metal, the bite of winter. I went into battle after battle, taking risk after risk, expecting death to catch me. But he never did. I rose in the ranks. My fellow soldiers looked to me to lead them, to teach them. A sense of camaraderie was built around me. And my purpose was born. Shortly afterwards I died in the  Battle of Huaxia. It wasn’t painful. I wasn’t scared. I had nothing to leave behind. No tales to tell, no family to protect, not even a country to die for. 
+  Shen: Were you happy? When you were alive? When you were with your troop? 
+  Gaku Ki: I don’t know if I was ever truly alive, I don’t know if I will ever find out but…yes. I was happy. If only for fleeting moments. 
+  Shen: I see.
+  Gaku Ki: I am grateful. It is an honor to be visited by you. But I must apologize, emperor, for I think…I think I am ready.
+  Shen: Ready? What is it that you are ready to do?
+  Gaku Ki: ...
+  Gaku Ki: (Gaku Ki has passed on)
+  <<set $GakuKi_talk to 1>>
+<<elseif $GakuKi_talk == 1>>
+  Gaku Ki: (Gaku Ki has passed on)
 ===

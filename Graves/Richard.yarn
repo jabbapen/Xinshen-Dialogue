@@ -4,7 +4,7 @@ Richard the Eunuch - an official of Shen's empire. Required by Shen to become a 
 ===
 title: Richard_dialogue
 ---
-<<if $Richard_talk == 0>>
+<<if $Richard_talk is null>>
   Richard: Fuck you.
   Richard: (You cannot seem to talk to Richard anymore.)
 
