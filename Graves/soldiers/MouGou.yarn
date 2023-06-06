@@ -1,0 +1,20 @@
+title: MouGou_tombstone
+---
+Mou Gou - Han Ming Soldier
+===
+title: MouGou_dialogue
+---
+Shen: Greetings soldier.
+Mou Gou: Emperor! What are you doing here?
+Shen: I think...I think have died. What is this place? It feels like home, but different. Where are all the people? The city? The farmland?
+Mou Gou: Oh things are different here. This is the Spirit Realm. 
+-> Shen: Who rules this land? 
+    Mou Gou: I know not, my emperor. I simply know that the spirits here are restless. Some even materialize and roam throughout the land. Be careful, they are not peaceful.
+    Shen: I see. Thank you. 
+-> Shen: How do I get out of here?
+    Mou Gou: There is no escape, I'm afraid. This place simply exists as a terminal for spirits to pass through to the afterlife.
+    Shen: I see. Thank you.
+-> Shen: Are there more like you?
+    Mou Gou: Yes. Though I have not met them. 
+    Shen: I see. Thank you.
+===
